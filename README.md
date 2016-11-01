@@ -4,7 +4,7 @@ Small tool created to play with color theory and material design.
 
 It's only experimental, there is only the option for generate random patterns of three colors.
 
-You can see how it works [HERE](Material-Colors)
+You can see how it works [HERE](https://vickpix.github.io/Material-Colors/)
 <hr>
 
 #### TODO

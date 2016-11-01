@@ -1,0 +1,106 @@
+
+ .pattern{
+ 	color: white;
+ 	box-shadow: 0px 0px 5px #ddd;
+ 	border: 2px solid #fff;
+ 	margin: 30px 5px;
+ 	cursor: pointer;
+ }
+ .toasty{
+ 	position: absolute;
+ 	bottom:0;
+ }
+ .toast-color{
+ 	color:#fff;
+ 	padding: 5px;
+ 	border-radius: 3px;
+ 	margin-right: 5px;
+ }
+ .pattern .column:not(:first-child){
+ 	border-left: 3px solid #fff;
+ }
+ .box {
+    height:60vh;
+    width:36vh;
+    bottom: 0;
+    background:white;
+    box-shadow: 0px 3px 5px #888;
+}
+ .status {
+    height:2.5vh;
+    bottom: 0;
+    background:#225588;
+    
+}
+ .toolbar {
+    height:10vh;
+    bottom: 0;
+    background:#4477aa;
+    box-shadow: 0px .5vh .5vh #ccc;
+    margin-top: -3vh;
+}
+
+.circle{
+	width:8vh;
+	height:8vh;
+	border-radius: 50%;
+    margin-top: 90%;
+    margin-left: 65%;
+    background:orange;
+    box-shadow: 0px 3px 5px #bbb;
+    text-align: center;
+}
+.circle span{
+	color:white;
+	height: 100%;
+	margin: 0;
+	padding:0;
+	font-size: 5vh;
+}
+
+.menuicon{color:#fff;position:absolute;margin-left:3vh;margin-top:4.4vh;width:3vh;height:.3vh;background-color:currentColor}
+.menuicon:before{content:'';position:absolute;top:-1vh;left:0;width:3vh;height:.3vh;background-color:currentColor}
+.menuicon:after{content:'';position:absolute;top:1vh;left:0;width:3vh;height:.3vh;background-color:currentColor}
+.app-title{
+	color:#fff;
+	padding-top: 2.5vh;
+	margin-left:8vh;
+	margin-top:2.5vh;
+	width:100%;
+	height:2vh;
+	font-size: 2.5vh;
+}
+
+
+/****************************************************************************************************************/
+.loader {
+  color: #fff;
+  /*font-family: Consolas, Menlo, Monaco, monospace;*/
+  font-weight: bold;
+  font-size: 4vh;
+  opacity: 0.8;
+}
+.loader span {
+  display: inline-block;
+  -webkit-animation: pulse 1s alternate infinite ease-in-out;
+          animation: pulse 1s alternate infinite ease-in-out;
+}
+.loader span:nth-child(odd) {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+@-webkit-keyframes pulse {
+  to {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    opacity: 0.5;
+  }
+}
+@keyframes pulse {
+  to {
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    opacity: 0.5;
+  }
+}
+
